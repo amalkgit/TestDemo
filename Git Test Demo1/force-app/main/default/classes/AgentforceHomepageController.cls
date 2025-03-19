@@ -14,6 +14,7 @@ public with sharing class AgentforceHomepageController {
        }  catch (Exception e) {
           // Handle exceptions and return null if the file is not found
          System.debug('Error retrieving file ID: ' + e.getMessage());
+         system.debug('New changes');
          //Handle new errors
          return null;
         }
